@@ -421,12 +421,14 @@ section {
 .card {
 }
 
-.card .image {
+/* .card .image {
   height: 290px;
-}
+} */
 
 .card img {
-  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  margin-top: 10px;
 }
 
 .card .content {
